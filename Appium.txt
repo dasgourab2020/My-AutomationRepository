@@ -1,0 +1,12 @@
+Appium Basic Setup: 
+1) Install note js. command: node -v, npm -v
+2) Install Appium.  Command: npm i -g Appium  For uninstall npm un -g Appium,   Appium --version
+   To start Appium server command: Appium, Appium -allow -cors, To stop CTRL+C
+3) install Appium doctor   npm install -g appium-doctor
+4) Install Appium driver   Android:  Appium driver install uiautomator2,  Check List: Appium driver list
+    iOS: Appium driver install xcuitest,  Update driver: Appium driver list --updates
+
+Set Up for Android Mobile Testing
+1) missing dependencies cmd: appium-doctor --android 
+2)Install JDK
+3)Install Android Studio
